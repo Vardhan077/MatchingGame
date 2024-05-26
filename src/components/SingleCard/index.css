@@ -1,0 +1,72 @@
+/* .card{
+    position: relative;
+}
+
+.card img{
+    width:100%;
+    display: block;
+    border: 2px solid #fff;
+}
+
+.card .front{
+    transform: rotateY(90deg);
+    position: absolute;
+}
+.flipped .front{
+    transform: rotateY(0deg);
+} */
+
+
+
+
+
+
+
+
+.card {
+    position: relative;
+    perspective: 1000px; /* Add perspective for 3D effect */
+    width: 150px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    transition: transform 1s ease; /* Smooth transition for flipping */
+}
+
+.front {
+    width: 100px; /* Adjust width as needed */
+    height: 180px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    position: absolute;
+    backface-visibility: hidden; /* Hide back of the flipped card */
+}
+
+.card .back {
+    transform: rotateY(0deg); /* Initially, back image is visible */
+}
+
+.card .front {
+    transform: rotateY(180deg); /* Flipped front image, hidden initially */
+}
+
+.flipped .back {
+    transform: rotateY(-180deg); /* Flipped back image, hidden after click */
+}
+
+.flipped .front {
+    transform: rotateY(0deg); /* Front image visible after click */
+}
+
+
+
+.emptyCard {
+    width: 150px; /* Adjust width as needed */
+    height: 200px; 
+    background-color: transparent; /* or any color to represent empty space */
+    /* border: 1px dashed #tra; Optional: dashed border to indicate an empty slot */
+
+  }
+  

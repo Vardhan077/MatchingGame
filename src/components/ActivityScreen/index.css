@@ -1,0 +1,260 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.ActivityContainer{
+    background-image: url('https://res.cloudinary.com/dg9itycrz/image/upload/v1716619624/assets/bg_eqdcnd.png');
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+/* progress bar */
+
+.progress-container {
+  width: 70%;
+  background-color: #e0e0e0;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  height: 30px;
+  width: 0;
+  /* background-color: #FCE492; */
+  background: repeating-linear-gradient(45deg,#FCE492, #FCE492 10px , #FFCF25 10px ,#FFCF25 20px);
+  /* background-image: linear-gradient(#FFCF25,#FCE492); */
+  transition: width 0.5s ease;
+  border-radius: 25px;
+}
+/* .whiteBanana{
+  position: absolute;
+  bottom: 87%;
+  background: repeating-linear-gradient(45deg,#FCE492, #FCE492 10px , #FFCF25 10px ,#FFCF25 20px);
+} */
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.whiteBanana{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80px;
+  margin-bottom: 20px;
+  position: absolute;
+  left:75%;
+}
+
+
+
+/* grids */
+
+.cardsGrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 40px; */
+}
+
+.card{
+    height:160px;
+    width: 160px;
+}
+
+.pinkCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:100px;
+    margin-right: 20px;
+    height: 100px;
+    max-width: 550px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.blueCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:100px;
+    margin-left: 20px;
+    height: 100px;
+    max-width: 550px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+
+/* modal*/
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background: #fff; */
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+  z-index: 1000;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.close-modal {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+ 
+}
+
+.nxtBtn{
+  height: 80px;
+  width: auto;
+}
+.nextButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.modal-body {
+  text-align: center;
+  height: 30vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.popUpImageOne {
+  max-width: 180px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.popUpImageTwo {
+  max-width: 180px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 10px;
+
+  /* margin: 0 auto; */
+}
+
+/* .popUpImage {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+} */
+
+.rotated-imageTwo {
+  transform: rotate(20deg);
+  margin-top: 25px;
+  /* margin-right: 5px; */
+}
+
+.rotated-imageOne {
+  transform: rotate(-20deg);
+  margin-bottom:25px ; 
+  margin-right: 25px;
+
+}
+
+.success {
+  color: #EF8F35;
+  font-weight: 700;
+  font-family: Roboto;
+  font-size: 50px;
+  position: relative;
+  text-shadow: 2px 2px 0px #fff, /* Create a white shadow with multiple layers */
+               /* -2px -2px 0px #fff, */
+               /* 2px -2px 0px #fff, */
+               /* -2px 2px 0px #fff, */
+               2px 4px 4px rgba(255, 255, 255, 1); 
+}
+
+
+
+
+
+
+
+/* final  */
+
+
+.inbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.final{
+  position: relative;
+  max-height:600px ;
+  width: auto;
+}
+
+.finalMonkey{
+  position: absolute;
+  right: 25%;
+  top: 45%;
+  height: 220px;
+  
+}

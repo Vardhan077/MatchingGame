@@ -1,0 +1,168 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    height: 100%;
+    width: 100%;
+}
+
+
+.InstructionContainer{
+    background-image: url('https://res.cloudinary.com/dg9itycrz/image/upload/v1716619624/assets/bg_eqdcnd.png');
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.btnPicIns{
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+  }
+  
+  .btnPicIns .btnIns { 
+    height: 80px; 
+    display: block;
+  }
+
+  .btnContainerIns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5%;
+    margin-top: 60px;
+  }
+  
+
+  .backBtnContainerIns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .backBtnContainerIns .backBtnIns{ 
+        height: 80px; 
+        display: block;
+        margin-left: 15px;
+        /* margin-top: 25px; */
+
+  }
+  .backBtnIns{
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .backImgIns{
+    height: 100px;
+  }
+
+
+
+/* progress bar */
+
+.progress-container {
+  width: 70%;
+  background-color: #e0e0e0;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  height: 30px;
+  width: 0;
+  background-color: #76c7c0;
+  transition: width 0.5s ease;
+  border-radius: 25px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.whiteBanana{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 80px;
+  margin-bottom: 20px;
+  position: absolute;
+  left:75%;
+}
+
+
+/* Steps */
+
+.steps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteBox{
+    height:300px;
+    background-color: #fff;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0px;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+
+.stepOnePic{
+    height:100px;
+    position: absolute;
+}
+.stepOnePictwo{
+    height:100px;
+    position: relative;
+    margin-left: 25px;
+}
+
+.stepOne{
+    color: #11AEC6;
+    font-size: 25px;
+    padding: 0px;
+    margin:0px;
+    font-weight: 600;
+}
+
+.stepOnePara{
+    color: #A6C930;
+    padding: 0px;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
