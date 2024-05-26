@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MatchingGame/static/css/main.b99f9d77.css",
-    "main.js": "/MatchingGame/static/js/main.c9fa91f6.js",
+    "main.js": "/MatchingGame/static/js/main.507bc7c2.js",
     "static/js/453.09af52bb.chunk.js": "/MatchingGame/static/js/453.09af52bb.chunk.js",
     "static/media/final.png": "/MatchingGame/static/media/final.24fcbf16d9a8f825e140.png",
     "static/media/talkingMonkey.png": "/MatchingGame/static/media/talkingMonkey.bbec48aac50bf48ec034.png",
@@ -17,11 +17,11 @@
     "static/media/next1.png": "/MatchingGame/static/media/next1.f623b75c03b67c30eeae.png",
     "index.html": "/MatchingGame/index.html",
     "main.b99f9d77.css.map": "/MatchingGame/static/css/main.b99f9d77.css.map",
-    "main.c9fa91f6.js.map": "/MatchingGame/static/js/main.c9fa91f6.js.map",
+    "main.507bc7c2.js.map": "/MatchingGame/static/js/main.507bc7c2.js.map",
     "453.09af52bb.chunk.js.map": "/MatchingGame/static/js/453.09af52bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b99f9d77.css",
-    "static/js/main.c9fa91f6.js"
+    "static/js/main.507bc7c2.js"
   ]
 }
