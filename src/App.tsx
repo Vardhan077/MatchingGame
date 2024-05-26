@@ -9,7 +9,7 @@ import FinalScreen from './components/FinalScreen';
 
 export default function App() {
   return (
-    <Router>
+    <Router  basename='/MatchingGame'>
       <Routes>
         <Route path='/' element={<IntroScreen />} />
         <Route path='/one' element={<IntroScreenTwo />} />
