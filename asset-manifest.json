@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/MatchingGame/static/css/main.b99f9d77.css",
+    "main.js": "/MatchingGame/static/js/main.c9fa91f6.js",
+    "static/js/453.09af52bb.chunk.js": "/MatchingGame/static/js/453.09af52bb.chunk.js",
+    "static/media/final.png": "/MatchingGame/static/media/final.24fcbf16d9a8f825e140.png",
+    "static/media/talkingMonkey.png": "/MatchingGame/static/media/talkingMonkey.bbec48aac50bf48ec034.png",
+    "static/media/welcomeKiddo.png": "/MatchingGame/static/media/welcomeKiddo.b83140ac4efed431b28a.png",
+    "static/media/card-1.png": "/MatchingGame/static/media/card-1.6e1beaed4c49390ea026.png",
+    "static/media/card.png": "/MatchingGame/static/media/card.306e32212fcc1b9e8c5b.png",
+    "static/media/finalMonkey.png": "/MatchingGame/static/media/finalMonkey.df65549d5e87de37f1b4.png",
+    "static/media/backbtn.png": "/MatchingGame/static/media/backbtn.c112ec504c62eb9607b2.png",
+    "static/media/card-2.png": "/MatchingGame/static/media/card-2.d8a1fd34eaafe8fd3d0e.png",
+    "static/media/nextbtn.png": "/MatchingGame/static/media/nextbtn.2086bbb8189b4d76a003.png",
+    "static/media/yes.png": "/MatchingGame/static/media/yes.83cd808d6fc609456199.png",
+    "static/media/play.png": "/MatchingGame/static/media/play.21600e5a3e05a0a0a4b4.png",
+    "static/media/next1.png": "/MatchingGame/static/media/next1.f623b75c03b67c30eeae.png",
+    "index.html": "/MatchingGame/index.html",
+    "main.b99f9d77.css.map": "/MatchingGame/static/css/main.b99f9d77.css.map",
+    "main.c9fa91f6.js.map": "/MatchingGame/static/js/main.c9fa91f6.js.map",
+    "453.09af52bb.chunk.js.map": "/MatchingGame/static/js/453.09af52bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b99f9d77.css",
+    "static/js/main.c9fa91f6.js"
+  ]
+}
